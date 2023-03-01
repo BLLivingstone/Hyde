@@ -3,10 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-
-// https://www.youtube.com/watch?v=zc8ac_qUXQY
-
 public class MainMenu : MonoBehaviour {
     // Start is called before the first frame update
     public void StartGame() {
@@ -15,7 +11,6 @@ public class MainMenu : MonoBehaviour {
 
     // Update is called once per frame
     public void GameExit() {
-        Debug.Log ("Game Exit");
         Application.Quit();    
     }
 }
