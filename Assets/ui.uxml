@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Label text="Number of Sheep" display-tooltip-when-elided="true" name="Counter" />
+</ui:UXML>
